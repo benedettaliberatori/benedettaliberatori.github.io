@@ -31,10 +31,10 @@
 
 
 - id: home
-  description: "bliberatori.com"
+  description: "benedettaliberatori.com"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "https://bliberatori.com"
+  url: "https://benedettaliberatori.com"
   on-homepage: false
   cv-group: 1
 

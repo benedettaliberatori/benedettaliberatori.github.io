@@ -1,0 +1,26 @@
+- degree: "Ph.D. in Computer Science"
+  institution: University of Trento
+  location: "Italy"
+  advisor: Elisa Ricci
+  co-advisor: 
+  years: "Nov. 2022 —"
+  years-extra: ""
+  institution-url: https://www.disi.unitn.it/
+
+- degree: "M.S. in Data Science and Artificial Intelligence"
+  institution: University of Trieste, SISSA and ICTP
+  location: "Trieste, Italy"
+  years: "Oct. 2020 -"
+  years-extra: "Sept. 2022"
+  institution-url: https://www.sissa.it/
+  description:
+    - "Final grade: 110/110 cum Laude"
+
+- degree: "B.S. in Mathematics"
+  years: "Sept. 2017 —"
+  years-extra: "Jul. 2020"
+  institution: University of Rome La Sapienza
+  location: "Rome, Italy"
+  description: 
+    - "Final grade: 110/110 cum Laude"
+  institution-url: https://www.uniroma1.it/en/pagina-strutturale/home

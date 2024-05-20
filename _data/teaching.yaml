@@ -1,0 +1,11 @@
+- institution: University of Trento
+  position: Teaching Assistant
+  location: "Italy"
+  year: Spring 2024
+  class: "Introduction to Machine learning"
+  instructor: Paolo Rota, Yiming Wang
+  description: 
+  institution-url: https://www.unitn.it/
+  class-url: https://didatticaonline.unitn.it/dol/enrol/index.php?id=38237
+  ta: true
+

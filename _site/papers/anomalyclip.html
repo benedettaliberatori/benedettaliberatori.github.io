@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu:300,700" rel="stylesheet">
+
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Share card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@bliberatori_" />
+  <meta name="twitter:creator" content="@bliberatori_" />
+  <meta property="og:url" content="https://benedettaliberatori.com/" />
+  <meta property="og:title" content="Benedetta Liberatori" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="http://benedettaliberatori.com/images/share.png" />
+
+  <title>
+    
+    Benedetta Liberatori - Delving into CLIP latent space for Video Anomaly Recognition
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/icons/android-chrome-512x512.png?v=xQdLjRyXLj" color="#313131">
+  <link rel="shortcut icon" href="/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#313131">
+  <meta name="msapplication-config" content="/icons/browserconfig.xml?v=xQdLjRyXLj">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Feed -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Benedetta Liberatori" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMVTT71WC1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YMVTT71WC1');
+  </script>
+
+</head>
+
+  <body>
+    <header id="masthead">
+	<h1>
+  		<a href="/" title="Home">Benedetta Liberatori</a>
+  		<!-- <div class="mastheadspacer"/></div> -->
+   		<!-- <span class="masthead-slash">/</span> -->
+   		<!-- <small>PhD Student in Computer Science</small> -->
+	</h1>
+	<nav>
+		<a href="http://localhost:4000/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+		<a href="http://localhost:4000/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
+		<a href="http://localhost:4000/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
+		<!-- <a href="/cv">CV</a>
+		<a href="/projects">Projects</a>
+		<a href="/everything-else">Everything Else</a> -->
+	</nav>
+</header>
+    <main>
+      <div id="paper-title-wrapper" class="l-screen">
+
+	<h1>Delving into CLIP latent space for Video Anomaly Recognition</h1>
+
+	<div id="venue-bar">
+		<div id="venue">preprint, 2023</div>
+		
+		
+		
+		
+		
+	</div>
+
+	<hr class="project-hr">
+
+    <div id="author-wrapper">
+        
+            <div class="author">
+                
+                
+<span class="cv-author">Luca Zanella*</span>
+            </div>
+        
+            <div class="author">
+                
+                
+<span class="cv-author">Benedetta Liberatori*</span>
+            </div>
+        
+            <div class="author">
+                
+                
+<span class="cv-author">Willi Menapace</span>
+            </div>
+        
+            <div class="author">
+                
+                
+<span class="cv-author">Fabio Poiesi</span>
+            </div>
+        
+            <div class="author">
+                
+                
+<span class="cv-author">Yiming Wang</span>
+            </div>
+        
+            <div class="author">
+                
+                
+<span class="cv-author">Elisa Ricci</span>
+            </div>
+        
+    </div>
+
+	<!-- <hr class="project-hr"> -->
+
+	<div id="paper-materials" class="l-text">
+		
+		
+			
+		
+			
+			  <a href="/papers/anomalyclip"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+			
+		
+			
+		
+			
+			  <a href="https://arxiv.org/abs/2404.03085"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+		
+	</div>
+
+</div>
+
+<h2>Abstract</h2>
+<div><p>We tackle the complex problem of detecting and recognising anomalies in surveillance videos at the
+frame level, utilising only video-level supervision. We introduce the novel method AnomalyCLIP,
+the first to combine Large Language and Vision (LLV) models, such as CLIP, with multiple instance
+learning for joint video anomaly detection and classification. Our approach specifically involves manipulating the latent CLIP feature space to identify the normal event subspace, which in turn allows
+us to effectively learn text-driven directions for abnormal events. When anomalous frames are projected onto these directions, they exhibit a large feature magnitude if they belong to a particular class.
+We also introduce a computationally efficient Transformer architecture to model short- and long-term
+temporal dependencies between frames, ultimately producing the final anomaly score and class prediction probabilities. We compare AnomalyCLIP against state-of-the-art methods considering three
+major anomaly detection benchmarks, i.e. ShanghaiTech, UCF-Crime, and XD-Violence, and empirically show that it outperforms baselines in recognising video anomalies.</p>
+</div>
+
+
+<figure class="l-text">
+    <img class="single" src="/images/papers/cviu-2023-teaser.png">
+    <figcaption class="single"></figcaption>
+</figure>
+
+
+<h2>BibTeX</h2>
+
+<div class="highlighter-rouge bibtex bibtex-wrapper">
+	<div class="highlight">
+		<pre>
+			
+@article{zanella2023delving,
+title={Delving into CLIP latent space for Video Anomaly Recognition},
+author={Zanella, Luca and Liberatori, Benedetta and Menapace, Willi and Poiesi, Fabio and Wang, Yiming and Ricci, Elisa},
+journal={arXiv},
+year={2023}
+}
+		</pre>
+	</div>
+</div>
+
+
+    </main>
+    <footer>
+	<div id="footer-left">
+		<a href="mailto:benedetta.liberatori@unitn.it"><i class="fa-lg fa fa-envelope footer-icon" aria-hidden="true"></i></a>
+		<a href="http://www.twitter.com/bliberatori_"><i class="fa-lg fab fa-twitter footer-icon" aria-hidden="true"></i></a>
+		<a href="https://github.com/benedettaliberatori"><i class="fa-lg fab fa-github footer-icon" aria-hidden="true"></i></a>
+		<a href="http://www.linkedin.com/in/benedettaliberatori"><i class="fa-lg fab fa-linkedin-in footer-icon" aria-hidden="true"></i></a>
+		<a href="https://scholar.google.com/citations?hl=it&user=UhOIjIwAAAAJ"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
+		<br>
+		<br>
+		&copy; <time datetime="May 20, 2024">2024</time> Benedetta Liberatori
+	</div>
+	<div id="footer-right">
+		
+	</div>
+</footer>
+
+  </body>
+  
+</html>

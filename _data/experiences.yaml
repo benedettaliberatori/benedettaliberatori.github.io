@@ -1,0 +1,12 @@
+- institution: Fondazione Bruno Kessler
+  location: "Trento, Italy"
+  position: 
+  group: Deep Visual Learning Lab
+  year: 
+  mentors:
+    - Elisa Ricci, Yiming Wang
+  description: "Research state-of-the-art methods for video anomaly detection and develop a method to detect anomalous
+                activities. The Deep Visual Learning Lab conducts research in the areas of deep learning and computer vision, developing novel methodologies for image and video understanding"
+  institution-url: https://dvl.fbk.eu/
+  group-url: https://www.fairfield.edu/undergraduate/academics/schools-and-colleges/college-of-arts-and-sciences/programs/mathematics/
+  type: academic

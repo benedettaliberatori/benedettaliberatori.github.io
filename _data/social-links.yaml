@@ -1,0 +1,62 @@
+- id: email
+  description: "benedetta.liberatori@unitn.it"
+  color: "#515151"
+  class: "fas fa-envelope icon"
+  url: "mailto:benedetta.liberatori@unitn.it"
+  on-homepage: true
+  cv-group: 1
+
+- id: twitter
+  description: "@bliberatori_"
+  color: "#1da1f2"
+  class: "fab fa-twitter icon"
+  url: https://twitter.com/bliberatori_
+  on-homepage: true
+  cv-group: 2
+
+- id: github
+  description: "@benedettaliberatori"
+  color: "#6e5494"
+  class: "fab fa-github icon"
+  url: "https://github.com/benedettaliberatori"
+  on-homepage: true
+  cv-group: 2
+
+- id: linkedin
+  description: "benedettaliberatori"
+  color: "#0077b5"
+  class: "fab fa-linkedin-in icon"
+  url: "https://www.linkedin.com/in/benedettaliberatori/"
+  on-homepage: true
+
+
+- id: home
+  description: "bliberatori.com"
+  color: "#515151"
+  class: "fas fa-home icon"
+  url: "https://bliberatori.com"
+  on-homepage: false
+  cv-group: 1
+
+- id: scholar
+  description: "Google Scholar"
+  color: "#515151"
+  class: "fa fa-graduation-cap icon"
+  url: "https://scholar.google.com/citations?hl=it&user=UhOIjIwAAAAJ"
+  on-homepage: true
+  cv-group: 2
+
+- id: cv
+  description: CV PDF
+  color: "#ba2818"
+  class: "far fa-file-pdf icon"
+  url: "/cv.pdf"
+  on-homepage: false
+  cv-group: 1
+
+- id: cv-web
+  description: CV
+  color: "#515151"
+  class: "fa fa-address-card icon"
+  url: "/cv"
+  on-homepage: false

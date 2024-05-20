@@ -1,0 +1,15 @@
+- name: First Ascent 
+  description: 'Selected as one of the twenty computer science & software engineering students for the First Ascent Italy event: all-expenses-paid, four-day event in organized by Bending Spoons.' 
+  year: 2021
+
+
+- name: SISSA Scholarship
+  description: 'Awarded of one of the four scholarships by SISSA, founding partners of the MSc and among the most famous Research Centers in the scientific field. The scholarship is merit-based and covers full support for two years.'
+  year: 2020-2022
+
+- name: BSc Excellence Course
+  description: 'Admitted as one of the thirty members of the Excellence Course within the BSc Degree. The program
+                consisted of additional courses and tests. The grade point average bounded the admission.'
+  year: 2017-2020
+
+

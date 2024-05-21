@@ -1,6 +1,6 @@
 title: Benedetta Liberatori
 tagline: PhD Student in Computer Science
-url: http://benedettaliberatori.com
+url: http://benedettaliberatori.github.io
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -15,7 +15,7 @@ sass:
 
 author:
   name: Benedetta Liberatori
-  url: http://benedettaliberatori.com
+  url: http://benedettaliberatori.github.io
   email: benedetta.liberatori@unitn.it
 
 markdown: kramdown

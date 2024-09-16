@@ -11,10 +11,10 @@ authors:
   - Fabio Poiesi
   - Yiming Wang
   - Elisa Ricci
-venue: preprint
-venue-shorthand: 
+venue: Computer Vision and Image Understanding
+venue-shorthand: CVIU
 location: 
-year: 2023
+year: 2024
 url: /papers/anomalyclip
 pdf: https://arxiv.org/abs/2404.03085
 type: preprint
@@ -29,12 +29,12 @@ feature-order: 1
 coming-soon: false
 bibtex: |-
 
-    @article{zanella2023delving,
-    title={Delving into CLIP latent space for Video Anomaly Recognition},
-    author={Zanella, Luca and Liberatori, Benedetta and Menapace, Willi and Poiesi, Fabio and Wang, Yiming and Ricci, Elisa},
-    journal={arXiv},
-    year={2023}
-    }
+  @article{ZANELLA2024104163,0
+  title = {Delving into CLIP latent space for Video Anomaly Recognition},
+  journal = {Computer Vision and Image Understanding},
+  author = {Luca Zanella and Benedetta Liberatori and Willi Menapace and Fabio Poiesi and Yiming Wang and Elisa Ricci},
+  year = {2024}
+  }
 ---
 
 We tackle the complex problem of detecting and recognising anomalies in surveillance videos at the

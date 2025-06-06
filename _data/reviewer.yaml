@@ -16,14 +16,15 @@
     - year: 2025
       url: 
 
+- venue: ACM International Conference on Multimedia Retrieval
+  venue-shorthand: ICMR
+  years:
+    - year: 2025
+      url: 
+      
 - venue: Annual Conference on Neural Information Processing Systems
   venue-shorthand: NeurIPS
   years:
     - year: 2025
       url: 
 
-- venue: ACM International Conference on Multimedia Retrieval
-  venue-shorthand: ICMR
-  years:
-    - year: 2025
-      url: 

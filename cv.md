@@ -111,6 +111,11 @@ Her research interests lie in the area of computer vision, with a focus on visio
 {% include cv/venue.html venue=venue %}
 {% endfor %}
 
+<div class="cv-service-title"><b>Outstanding Reviewer</b></div>
+{% for venue in site.data.outstanding_reviewer %}
+{% include cv/venue.html venue=venue %}
+{% endfor %}
+
 ## Teaching
 
 {% for teach in site.data.teaching %}

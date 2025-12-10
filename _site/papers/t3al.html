@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
+  <head>
   <meta charset="utf-8">
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <link href="https://fonts.googleapis.com/css?family=Gaegu:300,700" rel="stylesheet">
@@ -19,9 +18,9 @@
   <meta property="og:image" content="https://benedettaliberatori.github.io/images/share.png" />
 
   <title>
-
+    
     Benedetta Liberatori - Test-Time Zero-Shot Temporal Action Localization
-
+    
   </title>
 
   <!-- CSS -->
@@ -41,8 +40,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Feed -->
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml"
-    title="Benedetta Liberatori" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Benedetta Liberatori" />
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMVTT71WC1"></script>
@@ -56,128 +54,136 @@
 
 </head>
 
-<body>
-  <header id="masthead">
-    <h1>
-      <a href="/" title="Home">Benedetta Liberatori</a>
-      <!-- <div class="mastheadspacer"/></div> -->
-      <!-- <span class="masthead-slash">/</span> -->
-      <!-- <small>PhD Student in Computer Science</small> -->
-    </h1>
-    <nav>
-      <a href="http://localhost:4000/cv">
-        <div><i class="fa fa-portrait icon icon-right-space"></i>CV</div>
-      </a>
-      <a href="http://localhost:4000/projects">
-        <div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div>
-      </a>
-      <a href="http://localhost:4000/everything-else">
-        <div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div>
-      </a>
-      <!-- <a href="/cv">CV</a>
+  <body>
+    <header id="masthead">
+	<h1>
+  		<a href="/" title="Home">Benedetta Liberatori</a>
+  		<!-- <div class="mastheadspacer"/></div> -->
+   		<!-- <span class="masthead-slash">/</span> -->
+   		<!-- <small>PhD Student in Computer Science</small> -->
+	</h1>
+	<nav>
+		<a href="http://localhost:4000/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+		<a href="http://localhost:4000/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
+		<a href="http://localhost:4000/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
+		<!-- <a href="/cv">CV</a>
 		<a href="/projects">Projects</a>
 		<a href="/everything-else">Everything Else</a> -->
-    </nav>
-  </header>
-  <main>
-    <div id="paper-title-wrapper" class="l-screen">
+	</nav>
+</header>
+    <main>
+      <div id="paper-title-wrapper" class="l-screen">
 
-      <h1>Test-Time Zero-Shot Temporal Action Localization</h1>
+	<h1>Test-Time Zero-Shot Temporal Action Localization</h1>
 
-      <div id="venue-bar">
-        <div id="venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</div>
+	<div id="venue-bar">
+		<div id="venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</div>
+		
+		
+		
+		
+		
+	</div>
 
+	<hr class="project-hr">
 
-
-
-
-      </div>
-
-      <hr class="project-hr">
-
-      <div id="author-wrapper">
-
-        <div class="author">
-
-
-          <span class="cv-author">Benedetta Liberatori</span>
-        </div>
-
-        <div class="author">
-
-
-          <span class="cv-author">Alessandro Conti</span>
-        </div>
-
-        <div class="author">
-
-
-          <span class="cv-author">Paolo Rota</span>
-        </div>
-
-        <div class="author">
-
-
-          <span class="cv-author">Yiming Wang</span>
-        </div>
-
-        <div class="author">
-
-
-          <span class="cv-author">Elisa Ricci</span>
-        </div>
-
-      </div>
-
-      <!-- <hr class="project-hr"> -->
-
-      <div id="paper-materials" class="l-text">
-
-
-        <a href="https://benedettaliberatori.github.io/T3AL/">
-          <div><i class="fas fa-link" aria-hidden="true"></i> Project</div>
-        </a>
-        <a href="https://arxiv.org/abs/2404.05426v2">
-          <div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div>
-        </a>
-
-
-      </div>
-
+    <div id="author-wrapper">
+        
+            <div class="author">
+                
+                
+<a href="https://benedettaliberatori.github.io/">Benedetta Liberatori</a>
+            </div>
+        
+            <div class="author">
+                
+                
+<a href="https://alessandroconti.me/">Alessandro Conti</a>
+            </div>
+        
+            <div class="author">
+                
+                
+<a href="https://paolorota.eu/">Paolo Rota</a>
+            </div>
+        
+            <div class="author">
+                
+                
+<a href="https://www.yimingwang.me/">Yiming Wang</a>
+            </div>
+        
+            <div class="author">
+                
+                
+<a href="https://eliricci.eu/">Elisa Ricci</a>
+            </div>
+        
     </div>
 
-    <h2>Abstract</h2>
-    <div>
-      <p>Zero-Shot Temporal Action Localization (ZS-TAL) seeks to identify and locate actions in untrimmed videos unseen
-        during training. Existing ZS-TAL methods involve fine-tuning a model on a large amount of annotated training
-        data. While effective, training-based ZS-TAL approaches assume the availability of labeled data for supervised
-        learning, which can be impractical in some applications. Furthermore, the training process naturally induces a
-        domain bias into the learned model, which may adversely affect the model’s generalization ability to arbitrary
-        videos. These considerations prompt us to approach the ZS-TAL problem from a radically novel perspective,
-        relaxing the requirement for training data. To this aim, we introduce a novel method that performs Test-Time
-        adaptation for Temporal Action Localization (T3AL). In a nutshell, T3AL adapts a pre-trained Vision and Language
-        Model (VLM). T3AL operates in three steps. First, a video-level pseudo-label of the action category is computed
-        by aggregating information from the entire video. Then, action localization is performed adopting a novel
-        procedure inspired by self-supervised learning. Finally, frame-level textual descriptions extracted with a
-        state-of-the-art captioning model are employed for refining the action region proposals. We validate the
-        effectiveness of T3AL by conducting experiments on the THUMOS14 and the ActivityNet-v1.3 datasets. Our results
-        demonstrate that T3AL significantly outperforms zero-shot baselines based on state-of-the-art VLMs, confirming
-        the benefit of a test-time adaptation approach.</p>
-    </div>
+	<!-- <hr class="project-hr"> -->
+
+	<div id="paper-materials" class="l-text">
+		
+		
+			
+		
+						
+							<a href="https://benedettaliberatori.github.io/T3AL/"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+						
+		
+			
+		
+			
+			  <a href="https://arxiv.org/abs/2404.05426v2"><div><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</div></a>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			  <a href="https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202024/31142.png?t=1717346662.9156156"><div><i class="fas fa-image" aria-hidden="true"></i> Poster</div></a>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+		
+	</div>
+
+</div>
+
+<h2>Abstract</h2>
+<div><p>Zero-Shot Temporal Action Localization (ZS-TAL) seeks to identify and locate actions in untrimmed videos unseen during training. Existing ZS-TAL methods involve fine-tuning a model on a large amount of annotated training data. While effective, training-based ZS-TAL approaches assume the availability of labeled data for supervised learning, which can be impractical in some applications. Furthermore, the training process naturally induces a domain bias into the learned model, which may adversely affect the model’s generalization ability to arbitrary videos. These considerations prompt us to approach the ZS-TAL problem from a radically novel perspective, relaxing the requirement for training data. To this aim, we introduce a novel method that performs Test-Time adaptation for Temporal Action Localization (T3AL). In a nutshell, T3AL adapts a pre-trained Vision and Language Model (VLM). T3AL operates in three steps. First, a video-level pseudo-label of the action category is computed by aggregating information from the entire video. Then, action localization is performed adopting a novel procedure inspired by self-supervised learning. Finally, frame-level textual descriptions extracted with a state-of-the-art captioning model are employed for refining the action region proposals. We validate the effectiveness of T3AL by conducting experiments on the THUMOS14 and the ActivityNet-v1.3 datasets. Our results demonstrate that T3AL significantly outperforms zero-shot baselines based on state-of-the-art VLMs, confirming the benefit of a test-time adaptation approach.</p>
+</div>
 
 
-    <figure class="l-text">
-      <img class="single" src="/images/papers/cvpr-2024-teaser.png">
-      <figcaption class="single"></figcaption>
-    </figure>
+<figure class="l-text">
+    <img class="single" src="/images/papers/cvpr-2024-teaser.png">
+    <figcaption class="single"></figcaption>
+</figure>
 
 
-    <h2>BibTeX</h2>
+<h2>BibTeX</h2>
 
-    <div class="highlighter-rouge bibtex bibtex-wrapper">
-      <div class="highlight">
-        <pre>
-
+<div class="highlighter-rouge bibtex bibtex-wrapper">
+	<div class="highlight">
+		<pre>
+			
 @inproceedings{liberatori2024test,
   title={Test-Time Zero-Shot Temporal Action Localization},
   author={Liberatori, Benedetta and Conti, Alessandro and Rota, Paolo and Wang, Yiming and Ricci, Elisa},
@@ -186,32 +192,27 @@
   year={2024}
 }
 		</pre>
-      </div>
-    </div>
+	</div>
+</div>
 
 
-  </main>
-  <footer>
-    <div id="footer-left">
-      <a href="mailto:benedetta.liberatori@unitn.it"><i class="fa-lg fa fa-envelope footer-icon"
-          aria-hidden="true"></i></a>
-      <a href="http://www.twitter.com/bliberatori_"><i class="fa-lg fab fa-twitter footer-icon"
-          aria-hidden="true"></i></a>
-      <a href="https://github.com/benedettaliberatori"><i class="fa-lg fab fa-github footer-icon"
-          aria-hidden="true"></i></a>
-      <a href="http://www.linkedin.com/in/benedettaliberatori"><i class="fa-lg fab fa-linkedin-in footer-icon"
-          aria-hidden="true"></i></a>
-      <a href="https://scholar.google.com/citations?hl=it&user=UhOIjIwAAAAJ"><i
-          class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
-      <br>
-      <br>
-      &copy; <time datetime="February 24, 2025">2025</time> Benedetta Liberatori
-    </div>
-    <div id="footer-right">
+    </main>
+    <footer>
+	<div id="footer-left">
+		<a href="mailto:benedetta.liberatori@unitn.it"><i class="fa-lg fa fa-envelope footer-icon" aria-hidden="true"></i></a>
+		<a href="http://www.twitter.com/bliberatori_"><i class="fa-lg fab fa-twitter footer-icon" aria-hidden="true"></i></a>
+		<a href="https://github.com/benedettaliberatori"><i class="fa-lg fab fa-github footer-icon" aria-hidden="true"></i></a>
+		<a href="http://www.linkedin.com/in/benedettaliberatori"><i class="fa-lg fab fa-linkedin-in footer-icon" aria-hidden="true"></i></a>
+		<a href="https://scholar.google.com/citations?hl=it&user=UhOIjIwAAAAJ"><i class="fa-lg fa fa-graduation-cap footer-icon" aria-hidden="true"></i></a>
+		<br>
+		<br>
+		&copy; <time datetime="December 10, 2025">2025</time> Benedetta Liberatori
+	</div>
+	<div id="footer-right">
+		
+	</div>
+</footer>
 
-    </div>
-  </footer>
-
-</body>
-
+  </body>
+  
 </html>

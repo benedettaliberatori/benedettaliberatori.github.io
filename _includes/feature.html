@@ -40,11 +40,16 @@
 					</a>
 					{% endif %}
 
-					{% if feature.url %}
-					<a href="{{ feature.url }}">
-						<i class="fas fa-link" aria-hidden="true"></i> Project
-					</a>
-					{% endif %}
+										{% if feature.url %}
+										{% assign resource = feature.url %}
+										{% if resource contains 'http' %}
+											<a href="{{ resource }}">
+										{% else %}
+											<a href="{{ resource | absolute_url }}">
+										{% endif %}
+												<i class="fas fa-link" aria-hidden="true"></i> Project
+										</a>
+										{% endif %}
 
 					{% if feature.demo %}
 					<a href="{{ feature.demo }}">
@@ -52,11 +57,16 @@
 					</a>
 					{% endif %}
 
-					{% if feature.pdf %}
-					<a href="{{ feature.pdf }}">
-						<i class="fas fa-file-pdf" aria-hidden="true"></i> PDF
-					</a>
-					{% endif %}
+										{% if feature.pdf %}
+										{% assign resource = feature.pdf %}
+										{% if resource contains 'http' %}
+											<a href="{{ resource }}">
+										{% else %}
+											<a href="{{ resource | absolute_url }}">
+										{% endif %}
+												<i class="fas fa-file-pdf" aria-hidden="true"></i> PDF
+										</a>
+										{% endif %}
 
 					{% if feature.blog %}
 					<a href="{{ feature.blog }}">
@@ -88,11 +98,27 @@
 					  </a>
 					{% endif %}
 
-					{% if feature.code %}
-					<a href="{{ feature.code }}">
-						<i class="fas fa-code" aria-hidden="true"></i> Code
-					</a>
-					{% endif %}
+										{% if feature.code %}
+										{% assign resource = feature.code %}
+										{% if resource contains 'http' %}
+											<a href="{{ resource }}">
+										{% else %}
+											<a href="{{ resource | absolute_url }}">
+										{% endif %}
+												<i class="fas fa-code" aria-hidden="true"></i> Code
+										</a>
+										{% endif %}
+
+										{% if feature.poster %}
+										{% assign resource = feature.poster %}
+										{% if resource contains 'http' %}
+											<a href="{{ resource }}">
+										{% else %}
+											<a href="{{ resource | absolute_url }}">
+										{% endif %}
+												<i class="fas fa-image" aria-hidden="true"></i> Poster
+										</a>
+										{% endif %}
 
 					{% if feature.slides %}
 					<a href="{{ feature.slides }}">

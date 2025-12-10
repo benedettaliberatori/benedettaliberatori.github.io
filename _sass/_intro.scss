@@ -22,8 +22,8 @@ $cv-icon-aspect-ratio: 1.33;
 
 #intro-image {
 	border-radius: 2rem;
-	height: 8rem;
-	width: 8rem;
+	height: 9rem;
+	width: 9rem;
 	object-fit: cover;
 }
 
@@ -176,8 +176,8 @@ $cv-icon-aspect-ratio: 1.33;
 
 @media screen and (max-width: $mobile) {
 	#intro-image {
-		height: 5rem;
-		width: 5rem;
+		height: 6rem;
+		width: 6rem;
 	}
 
 	#intro-title {

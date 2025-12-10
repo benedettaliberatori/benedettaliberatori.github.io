@@ -26,7 +26,7 @@ title: Home
 		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
 	</div>
 	<div>
-		Hi! I am Benedetta Liberatori. I am a third year PhD student at the <a href="https://mhug.disi.unitn.it/#/">Multimedia Human Understanding Group</a> (<a href="https://www.disi.unitn.it/">University of Trento</a>, Italy), where I am supervised by <a href="https://eliricci.eu/">Prof. Elisa Ricci</a>. 
+		Hi! I am Benedetta Liberatori. I am a PhD student at the <a href="https://mhug.disi.unitn.it/#/">Multimedia Human Understanding Group</a> (<a href="https://www.disi.unitn.it/">University of Trento</a>, Italy), where I am supervised by <a href="https://eliricci.eu/">Prof. Elisa Ricci</a> and co-advised by <a href="https://paolorota.eu/">Prof. Paolo Rota</a>. 
 
 	</div>
 	<div style="height: 1rem"></div>

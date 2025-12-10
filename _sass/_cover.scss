@@ -26,7 +26,7 @@ $cover-width: 8.5px;
   text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 
   background-color: $black-025;
   border-radius: 1.5rem;
@@ -44,8 +44,12 @@ $cover-width: 8.5px;
   padding: 0.5rem 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   flex-grow: 1;
+}
+
+.cover-top {
+  /* push title/venue down so it sits just above the footer buttons */
+  margin-top: auto;
 }
 
 .cover-title {
@@ -102,13 +106,19 @@ $cover-width: 8.5px;
 .cover-image {
   width: 100%;
   padding: 0.5rem;
+  /* allow the image area to be taller than the image so small images can be centered */
+  min-height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cover-image > a > img {
   border-radius: 1rem;
   border: 1px solid $black-05;
-  // padding: 0.25rem;
   background-color: white;
+  max-width: 100%;
+  height: auto;
 }
 
 .cover-link {

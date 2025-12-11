@@ -41,9 +41,11 @@ layout: default
 			  <a><div><i class="fas fa-arrow-right" aria-hidden="true"></i> Coming soon!</div></a>
 			{% endif %}
 		
-			{% if page.url %}
-			  <a href="{{ page.url }}"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
-			{% endif %}
+						{% if page.project %}
+							<a href="{{ page.project }}"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+						{% elsif page.url %}
+							<a href="{{ page.url | absolute_url }}"><div><i class="fas fa-link" aria-hidden="true"></i> Project</div></a>
+						{% endif %}
 		
 			{% if page.demo %}
 			  <a href="{{ page.demo }}"><div><i class="fas fa-play" aria-hidden="true"></i> Demo</div></a>

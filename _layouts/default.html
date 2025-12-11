@@ -6,7 +6,9 @@
     <main>
       {{ content }}
     </main>
-    {% include footer.html %}
+    {% unless page.no_footer %}
+      {% include footer.html %}
+    {% endunless %}
   </body>
   {% if page.jsarr %}
     {% for js in page.jsarr %}

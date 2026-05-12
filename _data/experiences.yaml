@@ -3,6 +3,7 @@
   position: 
   group: Deep Visual Learning Lab
   year: 2021-2022
+  sort-year: 2021
   mentors:
     - Elisa Ricci, Yiming Wang
   description: >
@@ -16,6 +17,7 @@
   position: 
   group: 
   year: 2026
+  sort-year: 2026
   mentors:
     - Monika Wysoczanska, Andrei Bursuc
   description: "Conducted research on detecting fine-grained differences in image pairs with large multimodal models."

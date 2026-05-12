@@ -59,7 +59,7 @@ Her research interests lie in the area of computer vision, with a focus on visio
 
 ## Experience
 
-{% assign sorted_experiences = site.data.experiences | sort: "year" | reverse %}
+{% assign sorted_experiences = site.data.experiences | sort: "sort-year" | reverse %}
 {% for experience in sorted_experiences %}
 {% include cv/experience.html experience=experience %}
 {% endfor %}

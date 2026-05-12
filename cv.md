@@ -40,14 +40,14 @@ Her research interests lie in the area of computer vision, with a focus on visio
 <div class="cv-image-links-wrapper">
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
-			{% if link.cv-group == 1 %}
+			{% if link["cv-group"] == 1 %}
 				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
 	</div>
 	<div class="cv-image-links">
 		{% for link in site.data.social-links %}
-			{% if link.cv-group == 2 %}
+			{% if link["cv-group"] == 2 %}
 				{% include cv-social-link.html link=link %}
 			{% endif %}
 		{% endfor %}

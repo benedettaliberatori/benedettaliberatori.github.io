@@ -60,3 +60,4 @@
   class: "fa fa-address-card icon"
   url: "/cv"
   on-homepage: false
+  cv-group: 1
